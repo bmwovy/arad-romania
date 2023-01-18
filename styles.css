@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+}
+.primu {
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-image: url("images/palat.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 5px 5px 5px black;
+    border: 7px dotted purple;
+    height: 400px;
+    
+}
+
+.top3 {
+    font-size: 28px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    border: 3px solid purple;
+    border-radius: 20px;
+    text-shadow: 5px 5px 5px black;
+    
+}
+
+#text1 {
+    display: inline-block;
+    border-bottom: 2px solid purple;
+    padding: 0 0 0 0;
+}
+
+#text2 {
+    display: inline-block;
+    border-bottom: 2px solid purple;
+    padding: 0 0 0 0;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: purple;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover{
+      color: #fff;
+      box-shadow: inset 100px 0 0 0 #54b3d6;;
+}
+
+.info{
+    background: skyblue;
+    background-size: inherit;
+    font-size: 28px;
+    text-shadow: 5px 5px 5px black;
+    margin: 0 auto;
+    padding: 30px;
+    background-image: url("images/romania.gif");
+    background-size: cover;
+    background-position: center;
+}
+#owner {
+    font-size: 18px;
+    display: block;
+    text-align: end;
+}
