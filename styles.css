@@ -89,7 +89,41 @@ a:hover{
     text-align: end;
 }
 
-li{
-    padding-top: 15px;
+
+h3, li:nth-child(1n+2){
+    padding: 10px;
+    animation: culoareschimb;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-duration: 20s;
+    border-radius: 8px;
     border-bottom: 1px solid #54b3d6;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+li:first-child{
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    animation: 3s ease 0s infinite running plimbare;
+}
+
+
+@keyframes culoareschimb{
+    0%{background-color: #ef476f;}
+    20%{background-color: #ffd166;}
+    40%{background-color: #06d6a0;}
+    60%{background-color: #118ab2;}
+    80%{background-color: #073b4c;}
+    100%{background-color: #ef476f;}
+}
+
+@keyframes plimbare{
+    50%{transform:scale(0.8, 0.7);}
 }
