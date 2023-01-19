@@ -48,9 +48,7 @@ img {
 }
 
 #text1 {
-    display: inline-block;
-    border-bottom: 2px solid purple;
-    padding: 0 0 0 0;
+    display: block;
 }
 
 #text2 {
